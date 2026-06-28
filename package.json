@@ -1,0 +1,22 @@
+{
+  "name": "@grex/yjs-engine",
+  "version": "1.0.0",
+  "description": "Modular Yjs Sync Engine",
+  "main": "dist/bundle.es.js",
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "lucide-react": "^1.22.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "y-webrtc": "latest",
+    "y-websocket": "latest",
+    "yjs": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.3",
+    "vite": "^8.1.0"
+  }
+}
