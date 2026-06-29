@@ -1,0 +1,14 @@
+{
+  "name": "GrexYjsEngine",
+  "description": "Modular Yjs Sync Engine for Sovereign Ecosystems",
+  "entrypoint": "dist/bundle.es.js",
+  "icon": "network",
+  "schema_version": "1.0.0",
+  "dependencies": {
+    "npm": [
+      "yjs",
+      "y-websocket",
+      "y-webrtc"
+    ]
+  }
+}
